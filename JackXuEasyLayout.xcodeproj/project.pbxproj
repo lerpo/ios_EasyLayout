@@ -14,6 +14,8 @@
 		4F0DB2D61AD7A70D00F6EA20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB2D51AD7A70D00F6EA20 /* Images.xcassets */; };
 		4F0DB2D91AD7A70D00F6EA20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB2D71AD7A70D00F6EA20 /* LaunchScreen.xib */; };
 		4F0DB2E51AD7A70D00F6EA20 /* JackXuEasyLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB2E41AD7A70D00F6EA20 /* JackXuEasyLayoutTests.m */; };
+		4F0DB2F11AD7A75300F6EA20 /* UIView+UIViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB2F01AD7A75300F6EA20 /* UIView+UIViewCategory.m */; };
+		4F0DB2F31AD7A84C00F6EA20 /* my_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB2F21AD7A84C00F6EA20 /* my_04@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		4F0DB2DE1AD7A70D00F6EA20 /* JackXuEasyLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackXuEasyLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0DB2E31AD7A70D00F6EA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0DB2E41AD7A70D00F6EA20 /* JackXuEasyLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackXuEasyLayoutTests.m; sourceTree = "<group>"; };
+		4F0DB2EF1AD7A75300F6EA20 /* UIView+UIViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewCategory.h"; sourceTree = "<group>"; };
+		4F0DB2F01AD7A75300F6EA20 /* UIView+UIViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewCategory.m"; sourceTree = "<group>"; };
+		4F0DB2F21AD7A84C00F6EA20 /* my_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_04@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		4F0DB2C71AD7A70D00F6EA20 /* JackXuEasyLayout */ = {
 			isa = PBXGroup;
 			children = (
+				4F0DB2F21AD7A84C00F6EA20 /* my_04@2x.png */,
 				4F0DB2CC1AD7A70D00F6EA20 /* AppDelegate.h */,
 				4F0DB2CD1AD7A70D00F6EA20 /* AppDelegate.m */,
 				4F0DB2CF1AD7A70D00F6EA20 /* ViewController.h */,
@@ -96,6 +102,7 @@
 		4F0DB2C81AD7A70D00F6EA20 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F0DB2EE1AD7A73D00F6EA20 /* esayLayout */,
 				4F0DB2C91AD7A70D00F6EA20 /* Info.plist */,
 				4F0DB2CA1AD7A70D00F6EA20 /* main.m */,
 			);
@@ -117,6 +124,15 @@
 				4F0DB2E31AD7A70D00F6EA20 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F0DB2EE1AD7A73D00F6EA20 /* esayLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4F0DB2EF1AD7A75300F6EA20 /* UIView+UIViewCategory.h */,
+				4F0DB2F01AD7A75300F6EA20 /* UIView+UIViewCategory.m */,
+			);
+			path = esayLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +217,7 @@
 			files = (
 				4F0DB2D41AD7A70D00F6EA20 /* Main.storyboard in Resources */,
 				4F0DB2D91AD7A70D00F6EA20 /* LaunchScreen.xib in Resources */,
+				4F0DB2F31AD7A84C00F6EA20 /* my_04@2x.png in Resources */,
 				4F0DB2D61AD7A70D00F6EA20 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0DB2D11AD7A70D00F6EA20 /* ViewController.m in Sources */,
+				4F0DB2F11AD7A75300F6EA20 /* UIView+UIViewCategory.m in Sources */,
 				4F0DB2CE1AD7A70D00F6EA20 /* AppDelegate.m in Sources */,
 				4F0DB2CB1AD7A70D00F6EA20 /* main.m in Sources */,
 			);
