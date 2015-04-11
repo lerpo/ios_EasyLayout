@@ -1,6 +1,6 @@
    1. 通过本框架布局，能够清晰的看到iOS控件元素的相互关系，不必要每次都要计算控件的位置，减少脑细胞死亡量。
    2. 通过本框架，只需要改动一行代码，就能够轻松实现手机横竖屏完美展现。 
-   主要方法
+主要方法
 -(void)layout_width:(float)width;     //视图高度  
 -(void)layout_heigth:(float)heigth;   //视图宽度  
   
@@ -25,3 +25,5 @@
 -(void)aligbottomnwithview:(UIView *)view;    //与某视图的下部边缘对齐  
 -(void)alignleftwithview:(UIView *)view;      //与某视图的左部边缘对齐  
 -(void)alignrigthwithview:(UIView *)view;     //与某视图的右部边缘对齐  
+
+详细使用请参考本人博客：http://blog.csdn.net/face___book/article/details/44980943
